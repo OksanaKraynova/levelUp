@@ -1,0 +1,191 @@
+@media(max-width: 1249px) {
+    .hero {
+        height: auto;
+    }
+
+    .arrow-wrapper {
+        display: none;
+    }
+
+    .slide-photo {
+        flex: 0 0 40%;
+        width: 600px;
+        height: auto;
+    }
+
+    .promo {
+        padding: 100px 15px;
+    }
+
+    .promo-image {
+        flex: 0 0 40%;
+    }
+}
+
+@media(max-width: 998px) {
+    .hero-title {
+      height: auto;
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .hero-container,
+    .structure,
+    .promo,
+    .slider,
+    .form {
+        padding: 60px 15px;
+    }
+
+    .structure-container {
+        gap: 20px;
+        justify-content: space-around;
+    }
+
+    .card-image {
+        height: 100px;
+        width: 100px;
+    }
+
+    .promo-list {
+        gap: 14px;
+    }
+
+    .promo-p+.promo-p {
+        margin-top: 14px;
+    }
+
+    .promo-list {
+        font-size: 20px;
+    }
+
+    .promo-p {
+        font-size: 14px;
+    }
+
+    .promo-between {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .form-image {
+        width: 200px;
+    }
+}
+
+@media(max-width: 768px) {
+    .hero-row {
+        gap: 30px;
+        margin-top: 40px;
+    }
+
+    .hero-list {
+        font-size: 18px;
+        gap: 14px;
+        flex: 1 1 70%;
+    }
+
+    .hero-title {
+        font-size: 54px;
+    }
+
+    .hero-title span {
+        font-size: 20px;
+    }
+
+    .hero-image {
+        flex: 0 1 150px;
+    }
+
+    .card {
+        max-width: 150px;
+    }
+
+    .card-image {
+        height: 60px;
+        width: 60px;
+        margin-bottom: 10px;
+    }
+
+    .card-text {
+        font-size: 14px;
+        line-height: 1.2;
+    }
+
+    .structure-column {
+        gap: 20px;
+    }
+
+    .structure-image {
+        width: 150px;
+    }
+
+    .slide-name {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .slide-comment {
+        font-size: 14px;
+        line-height: 1.2;
+    }
+
+    .promo-row:first-child {
+        flex-direction: column;
+    }
+
+    .promo-image {
+        flex: 1;
+        max-width: 500%;
+    }
+    .promo-list{
+        flex-wrap: wrap;
+    }
+    .dot{
+        display: none;
+    }
+
+    .form-row {
+        flex-wrap: wrap;
+    }
+
+    .form-wrapper {
+        flex: 0 0 100%;
+    }
+}
+
+@media(max-width: 549px) {
+    .structure-container {
+        flex-direction: column;
+    }
+
+    .structure-column {
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .hero-row {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media(max-width: 499px) {
+    .swiper-slide {
+        flex-direction: column;
+    }
+
+    .card-text {
+        font-size: 10px;
+    }
+
+    .slide-photo {
+        width: 100%;
+    }
+
+    .card {
+        width: 90px;
+    }
+}
